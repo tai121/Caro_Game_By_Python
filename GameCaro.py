@@ -36,14 +36,6 @@ class GameCaro:
                                                                                              this_point) >= 4:
             return this_point
         return 0
-        # top_corner = self.__check_1_direction(x_axis, y_axis, 1, 0, this_point)
-        # bottom_corner = self.__check_1_direction(x_axis, y_axis, -1, 0, this_point)
-        # left_corner = self.__check_1_direction(x_axis, y_axis, 0, -1, this_point)
-        # right_corner = self.__check_1_direction(x_axis, y_axis, 0, 1, this_point)
-        # top_left_corner = self.__check_1_direction(x_axis, y_axis, -1, -1, this_point)
-        # bottom_left_corner = self.__check_1_direction(x_axis, y_axis, 1, -1, this_point)
-        # top_right_corner = self.__check_1_direction(x_axis, y_axis, -1, 1, this_point)
-        # bottom_right_corner = self.__check_1_direction(x_axis, y_axis, 1, 1, this_point)
 
     def get_board(self):
         return self.board
