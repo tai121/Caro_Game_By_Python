@@ -1,0 +1,3 @@
+SIZE_OF_BOARD = 10
+MOVING = ['x', 'o']
+DEFAULT_MOVE = '.'
